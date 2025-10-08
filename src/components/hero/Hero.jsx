@@ -82,7 +82,7 @@ export default function Hero() {
               < br/>
               < br/>
                <a href="tel:+972547735944" className="text-white font-bold hover:text-orange-400 p-4">
-                   📞 +972 54 7735944
+                   📞 +972 54 6483410
                </a>
             </p>
            
