@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import hi from '../../assets/hi.png'
-import CV from './Mickael_CV.pdf'
-import img from '../../assets/hero.png'
+import CV from './Gabriel_CV.pdf'
+import hero from '../../assets/hero.png'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
 
@@ -114,7 +114,7 @@ export default function Hero() {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              src={img}
+              src={hero}
               alt="hero"
               className="object-cover object-center rounded-full mx-auto w-60 h-60 sm:w-64 sm:h-64 md:w-80 md:h-80"
             />
