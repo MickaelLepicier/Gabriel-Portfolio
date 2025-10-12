@@ -70,14 +70,21 @@ export default function Hero() {
             />
             
             <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-white">
-              I'm Mickael Lepicier
+              I'm Gabriel Traub
             </h1>
             <h3 className="title-font sm:text-2xl text-2xl mb-4 font-semibold text-white">
-              Fullstack Developer
+              Procurement & Development Advisor
             </h3>
             <p className="mb-8 leading-relaxed">
-              I'm passionate about building clean, user-friendly applications and always eager to learn, grow, and tackle complex challenges.
-              As a team player, I thrive in collaborative environments where I can contribute, share knowledge, and keep improving my skills.
+              With experience at the European Bank for Reconstruction & Development and Israel's Ministry of Economy & Industry,
+              I specialize in managing procurement and development-finance projects across emerging markets.
+              I've led tenders in energy and infrastructure, guided firms through complex regulatory frameworks,
+              and supported cross-border transactions.
+              My work fosters trade and investment between governments and private sectors,
+              helping clients secure and execute development-bank-linked projects worldwide.
+{/* 
+Originally from South Africa, raised in Israel.
+Seasoned professional in the world of government organizations in strategic customer facing roles. */}
 
               < br/>
               < br/>
@@ -89,17 +96,17 @@ export default function Hero() {
 
             <div className="flex justify-center">
 
-              <a href="https://www.linkedin.com/in/mickael-lepicier/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/gabriel-traub-439139143/" target="_blank" rel="noopener noreferrer">
                 <button className="inline-flex py-1 px-4 text-lg">
                   <img src={linkedin} alt="LinkedIn" className="w-8 h-8 text-lg focus:outline-none hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-lg" /> 
                 </button>
               </a>
 
-              <a href="https://github.com/MickaelLepicier" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://github.com/MickaelLepicier" target="_blank" rel="noopener noreferrer">
                 <button className="inline-flex py-1 px-4 text-lg">
                   <img src={github} alt="GitHub" className="w-8 h-8 text-lg focus:outline-none hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-lg" /> 
                 </button>
-              </a>
+              </a> */}
 
                
 

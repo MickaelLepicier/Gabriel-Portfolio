@@ -35,7 +35,7 @@ export default function Experience() {
           </h1>
 
           <h2 className="title-font font-bold text-white sm:text-2xl">
-            TechnoTal | 2023 - 2024
+            EBRD World Bank | 2021 - Present
           </h2>
           <ul className="mb-8 text-white leading-relaxed p-4">
             <li className="p-1">
@@ -43,6 +43,7 @@ export default function Experience() {
               as a wallet for crypto-currency.
             </li>
             <li className="p-1">
+              
               Building an App using <strong>React</strong> for efficient user
               interfaces, <strong>Redux</strong> for state management, and{' '}
               <strong>JavaScript</strong>.
