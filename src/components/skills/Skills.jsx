@@ -1,6 +1,9 @@
 import React from 'react'
 import excel from '../../assets/excel.png'
 import power_bI from '../../assets/power_bI.png'
+import chatgpt from '../../assets/chatgpt.png'
+import claude from '../../assets/claude.png'
+import gemini from '../../assets/gemini.png'
 
 // import redux from '../../assets/react.png'
 
@@ -97,6 +100,31 @@ export default function Skills() {
                 className="h-24 object-cover mx-auto"
               />
             </li>
+
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
+              <img
+                src={chatgpt} // Chatgpt icon
+                alt=""
+                className="h-24 object-cover mx-auto"
+              />
+            </li>
+
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
+              <img
+                src={claude} // Claude icon
+                alt=""
+                className="h-24 object-cover mx-auto"
+              />
+            </li>
+
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
+              <img
+                src={gemini} // Gemini icon
+                alt=""
+                className="h-24 object-cover mx-auto"
+              />
+            </li>
+
 
             {/* <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img

@@ -8,7 +8,7 @@ export default function Navbar() {
     { name: 'Skills', link: '#skills' },
     { name: 'Experience', link: '#experience' },
     { name: 'Language', link: '#language' },
-    { name: 'Projects', link: '#projects' }
+    // { name: 'Projects', link: '#projects' }
   ]
   useEffect(() => {
     const handleOutsideClick = (event) => {
