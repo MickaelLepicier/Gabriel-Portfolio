@@ -25,7 +25,7 @@ function App() {
       <Experience />
       <Language />
       {/* <Projects /> */}
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </main>
   )
