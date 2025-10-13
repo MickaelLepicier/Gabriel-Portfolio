@@ -53,9 +53,9 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop CTA */}
-        <button className="hidden md:inline-flex items-center py-1 px-7 focus:outline-none text-base text-white border border-white hover:border-yellow-300 hover:text-yellow-300">
+        {/* <button className="hidden md:inline-flex items-center py-1 px-7 focus:outline-none text-base text-white border border-white hover:border-yellow-300 hover:text-yellow-300">
           <a href="#contact">Contact me</a>
-        </button>
+        </button> */}
 
         {/* Mobile hamburger */}
         <button
@@ -108,13 +108,13 @@ export default function Navbar() {
               {item.name}
             </a>
           ))}
-          <a
+          {/* <a
             href="#contact"
             onClick={() => setIsOpen(false)}
             className="inline-flex items-center justify-center py-2 px-4 border border-white hover:border-yellow-300 hover:text-gray-900"
           >
             Contact me
-          </a>
+          </a> */}
         </nav>
       </div>
     </header>
